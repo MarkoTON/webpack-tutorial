@@ -12,11 +12,11 @@ module.exports = {
         rules: [
             {
                 test: /\.(ttf)$/,
-                type: 'asset/resource'
+                type: 'asset/inline'
             },
             {
                 test: /\.(png|jpg)$/,
-                type: 'asset/resource'
+                type: 'asset/inline'
             }
         ]
     }
