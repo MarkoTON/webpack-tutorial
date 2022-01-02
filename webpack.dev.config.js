@@ -17,7 +17,7 @@ module.exports = {
         },
         devMiddleware: {
             index: 'index.html',
-            writeToDisk: true
+            writeToDisk: true // it's recomended
         }
     },
     module: {
