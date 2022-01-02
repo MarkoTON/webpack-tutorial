@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         'hello-world': './src/hello-world.js',
-        'kiwi': './src/kiwi.js',
+        'kiwi': './src/kiwi.js', //'kiwi': ['./src/kiwi.js','./src/kiwi-two.js'], on ce 2 .js da sredi kao jedan zajednicki
     },
     output: {
         filename: '[name].[contenthash].js',
