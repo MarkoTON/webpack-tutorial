@@ -9,7 +9,7 @@ module.exports = {
     output: {
         filename: 'bundle.[contenthash].js',
         path: path.resolve(__dirname, './dist'),
-        publicPath: ''
+        publicPath: '' //  dist/
     },
     mode: 'none',
     module: {
@@ -58,6 +58,6 @@ module.exports = {
             filename: 'styles.[contenthash].css'
         }),
         new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin() // moze da kreira novi html file ako treba
     ]
 };
