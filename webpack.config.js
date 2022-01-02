@@ -50,6 +50,7 @@ module.exports = {
         ]
     },
     plugins: [
+        // uglifyjs je ista prica, ali sada se koristi TerserPlugin za te stvari
         new TerserPlugin()
     ]
 };
