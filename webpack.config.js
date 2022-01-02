@@ -72,7 +72,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Hello world',
             template: 'src/index.hbs',
-            description: 'Some description'
+            description: 'Some description',
+            // meta: {
+            //     description: 'Some description'
+            // }
         })
     ]
 };
