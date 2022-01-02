@@ -59,7 +59,7 @@ module.exports = {
         new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: [
                 '**/*',
-                path.join(process.cwd(), 'build/**/*')
+                path.join(process.cwd(), 'build/**/*') // brisace sve iz tog foldera
             ]
         })
     ]
