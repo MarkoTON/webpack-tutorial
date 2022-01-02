@@ -65,3 +65,7 @@ module.exports = {
         })
     ]
 };
+
+
+// removing contenthash because we dont needed in development mode
+// also removing min css because it does not make sanse for develoment

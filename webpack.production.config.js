@@ -2,6 +2,28 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// let pathToJsFile = '';
+
+
+// function getBrand () {
+// 	var args = null
+// 	process.argv.slice(2, process.argv.length).forEach( arg => {
+// 		if (arg.includes('=') && arg.includes('brand')) {
+// 				const longArg = arg.split('=').slice(1)
+// 				args = longArg[0]
+// 		}
+// 	})
+// 	return args
+// }
+
+// const brand = getBrand()
+// console.log(brand);
+
+// if(brand == 'igt'){
+// 	pathToJsFile = './src/index.js';
+// } else {
+// 	pathToJsFile = './src/test.js'
+// }
 
 module.exports = {
     entry: './src/index.js',
@@ -69,3 +91,5 @@ module.exports = {
         })
     ]
 };
+
+// TerserPlugin is in production there by default
