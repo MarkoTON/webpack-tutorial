@@ -65,6 +65,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: 'Hello world',
+            filename: 'subfolder/custom_filename.html',
             meta: {
                 description: 'Some description'
             }
