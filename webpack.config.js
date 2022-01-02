@@ -32,6 +32,7 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
+                    // Prvo ce ucitati sass-loader pa onda konertuje za css-loader i onda ide y style-loader
                     'style-loader', 'css-loader', 'sass-loader'
                 ]
             }
