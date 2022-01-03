@@ -8,7 +8,7 @@ module.exports = {
     output: {
         filename: 'bundle.[contenthash].js',
         path: path.resolve(__dirname, './dist'),
-        publicPath: '/static/'
+        publicPath: '/static/' // add static/ sto it will appere in index.html
     },
     mode: 'production',
     optimization: {
